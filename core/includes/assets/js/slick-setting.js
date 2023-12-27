@@ -5,12 +5,14 @@
     $(".slick-carousel").slick({
       dots: false,
       draggable: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       slidesToShow: 8,
-      slidesToScroll: 8,
+      slidesToScroll: 1,
       centerMode: true,
-      adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      adaptiveHeight: false,
       responsive: [
         {
           breakpoint: 1600,
