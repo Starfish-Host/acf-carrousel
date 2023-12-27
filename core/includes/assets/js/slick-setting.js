@@ -3,11 +3,12 @@
 
   $(window).load(function () {
     $(".slick-carousel").slick({
-      dots: true,
+      dots: false,
+      draggable: false,
       infinite: false,
       speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 8,
+      slidesToScroll: 8,
       centerMode: true,
       adaptiveHeight: true,
       responsive: [

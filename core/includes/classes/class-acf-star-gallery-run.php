@@ -117,7 +117,7 @@ class Acf_Star_Gallery_Run{
 		
 		?>
 			
-			<div class="slick-carousel">
+			<div class="slick-carousel" id="slick-carousel-container">
 			
 			<?php
 				$images = get_field($gallery_id);

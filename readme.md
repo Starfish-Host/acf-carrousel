@@ -1,6 +1,6 @@
 This is a simple, but beautiful image carousel for WordPress.
 
-You can implement it in any post/CPT of your choice, as long as you have an ACF gallery plugin implemented in it.
+You can implement it in any post/CPT of your choice, as long as you have an ACF (Advanced Custom Field) gallery plugin implemented in it.
 
 To use it, just copy and paste the shortcode with the winning key.
 
