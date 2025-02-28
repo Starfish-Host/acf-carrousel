@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  $(window).load(function () {
+  $(document).ready(function () {
     $(".slick-carousel").slick({
       dots: false,
       draggable: false,
